@@ -1,0 +1,25 @@
+{
+  "named_insured": "John Doe",
+  "secondary_insured": "",
+  "alternate_name": "",
+  "blanket_summary": [],
+  "premises_information": [
+    {
+      "premises_number": "1",
+      "street_address": "131 Any street, Columbus, OH, 43215",
+      "building_number": "1",
+      "coverage_information": [
+        {
+          "Subject_of_insurance": "Building",
+          "amount": "$500000.00",
+          "deductible": "$1000.00"
+        },
+        {
+          "Subject_of_insurance": "Business Personal property",
+          "amount": "$50000.00",
+          "deductible": "$5000.00"
+        }
+      ]
+    }
+  ]
+}

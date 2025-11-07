@@ -45,19 +45,13 @@ def create_agent():
             Required JSON structure:
             {
                 "named_insured": "string - First Named Insured name",
-                "secondary_insured": "string - Secondary insured name if present, otherwise empty string",
-                "alternate_name": "string - Alternate name if present, otherwise empty string",
-                "blanket_summary": [],
                 "premises_information": [
                     {
-                        "premises_number": "string",
                         "street_address": "string - full address",
-                        "building_number": "string",
                         "coverage_information": [
                             {
                                 "Subject_of_insurance": "string - e.g., 'Building' or 'Business Personal property'",
-                                "amount": "string - formatted as currency with $ symbol and decimals (e.g., '$500000.00')",
-                                "deductible": "string - formatted as currency with $ symbol and decimals (e.g., '$1000.00')"
+                                "amount": "string - formatted as currency with $ symbol and decimals (e.g., '$500000.00')"
                             }
                         ]
                     }
